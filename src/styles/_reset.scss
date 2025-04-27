@@ -12,3 +12,10 @@ body {
     background: #f4f5f9;
     scroll-behavior: smooth;
 }
+
+main {
+    margin: 0 4rem;
+    @media (max-width: 1080px) {
+        margin: 0;
+    }
+}
